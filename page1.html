@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Gia tin grammi pano pano-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--gia to scroll me tis eikones-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+
+
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px; /* Adjust margin to space the boxes */
+    padding: 20px; /* Adjust padding to control content spacing */
+    float: left; /* Float the boxes to make them appear next to each other */
+  }
+
+  /* Clearfix to prevent collapsing margins */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  * {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+    text-align: center;
+}
+  footer{
+            background-color: #808080;
+            color:#000000;
+            padding: 10px;
+            text-align: center;
+        }
+  </style>
+
+
+
+</head>
+
+<body>
+
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a href="C:\Users\uSer\Desktop\page\login.html">Login</a>
+      <a href="C:\Users\uSer\Desktop\page\categories.html">Categories</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--ftiaxnei olo to kommati me to scroll ton eikonon-->
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="C:\Users\uSer\Desktop\page\sexylaundry.jpg" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="C:\Users\uSer\Desktop\page\sesouar.jpg"  style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="C:\Users\uSer\Desktop\page\tixaiosthanatos.jpg" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="C:\Users\uSer\Desktop\page\mpampadesmeroumi.jpg"  style="width:100%;">
+        </div>
+        <div class="item">
+            <img src="C:\Users\uSer\Desktop\page\enorkoi12.jpg"  style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="C:\Users\uSer\Desktop\page\closer.png"  style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="C:\Users\uSer\Desktop\page\botkamolotof.jpg"  style="width:100%;">
+          </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!--ftiaxnei olo to kommati me ta koutia-->
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <img src="C:\Users\uSer\Desktop\page\sexylaundry.jpg" style="width:100%">
+      <h2>SEXY LAUNDRY</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <img src="C:\Users\uSer\Desktop\page\sesouar.jpg" style="width:100%">
+      <h2>SESOUAR GIA DOLOFONOUS</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <img src="C:\Users\uSer\Desktop\page\tixaiosthanatos.jpg" style="width:100%">
+      <h2>TIXAIOS THANATOS</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <img src="C:\Users\uSer\Desktop\page\mpampadesmeroumi.jpg" style="width:100%">
+      <h2>MPAMPADES ME ROUMI</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <img src="C:\Users\uSer\Desktop\page\enorkoi12.jpg" style="width:100%">
+      <h2>12 ENORKOI</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <img src="C:\Users\uSer\Desktop\page\closer.png" style="width:100%">
+      <h2>CLOSER</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:#ddd;">
+      <img src="C:\Users\uSer\Desktop\page\botkamolotof.jpg" style="width:100%">
+      <h2>BOTKA MOLOTOF</h2>
+      <p>Some text..</p>
+    </div>
+  </div>
+
+
+ 
+  <footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
+
+
+</body>
+
+</html>

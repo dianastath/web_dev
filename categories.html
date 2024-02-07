@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {
+            width: 200px;
+            height: 150px;
+            background-color: #555;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        li:hover {
+            background-color: #333;
+        }
+
+        h3{
+            margin: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <h3>12 ENORKOI</h3>
+            <button onclick="navigateTo('file:///C:/Users/uSer/Desktop/page/1category.html')">More informations</button>
+        </li>
+        <li>
+            <h3>TYXAIOS THANATOS ENOS ANARXIKOY</h3>
+            <button onclick="navigateTo('category2.html')">More informations</button>
+        </li>
+        <li>
+            <h3>MPAMPADES ME ROUMI</h3>
+            <button onclick="navigateTo('category3.html')">More informations</button>
+        </li>
+        <li>
+            <h3>BOTKA MOLOTOF</h3>
+            <button onclick="navigateTo('category4.html')">More informations</button>
+        </li>
+        <li>
+            <h3>CLOSER</h3>
+            <button onclick="navigateTo('category5.html')">More informations</button>
+        </li>
+        <li>
+            <h3>SESOUAR GIA DOLOFONOUS</h3>
+            <button onclick="navigateTo('category6.html')">More informations</button>
+        </li>
+        <li>
+            <h3>SEXY LAYNDRY</h3>
+            <button onclick="navigateTo('category7.html')">More informations</button>
+        </li>
+
+    </ul>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
